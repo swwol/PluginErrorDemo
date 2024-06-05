@@ -1,0 +1,13 @@
+{
+  "input_dir" : "Sources\/SwiftGenDemo\/Resources",
+  "output_dir" : "${DERIVED_SOURCES_DIR}",
+  "strings" : {
+    "inputs" : [
+      "en.lproj\/Localizable.strings",
+    ],
+    "outputs" : {
+      "output" : "Strings.generated.swift",
+      "templateName" : "MS-flat-swift5"
+    }
+  }
+}
