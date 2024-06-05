@@ -7,6 +7,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
           Text(L10n.projectString1)
+          Text(L10n.projectString2)
         }
         .padding()
     }
