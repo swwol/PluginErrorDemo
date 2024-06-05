@@ -12,6 +12,7 @@
 		F12BD5DB2C109B5C00991DC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12BD5DA2C109B5C00991DC3 /* Preview Assets.xcassets */; };
 		F12BD5E42C109BA800991DC3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F12BD5E22C109BA800991DC3 /* Localizable.strings */; };
 		F12BD5E92C109CDB00991DC3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12BD5E82C109CDB00991DC3 /* Media.xcassets */; };
+		F15EE5762C109F93001BCC3F /* SwiftGenDemo in Frameworks */ = {isa = PBXBuildFile; productRef = F15EE5752C109F93001BCC3F /* SwiftGenDemo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15EE5762C109F93001BCC3F /* SwiftGenDemo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,9 @@
 				F12BD5E62C109BEB00991DC3 /* PBXTargetDependency */,
 			);
 			name = SwiftGenDemoProject;
+			packageProductDependencies = (
+				F15EE5752C109F93001BCC3F /* SwiftGenDemo */,
+			);
 			productName = SwiftGenDemoProject;
 			productReference = F12BD5D02C109B5400991DC3 /* SwiftGenDemoProject.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +130,7 @@
 			mainGroup = F12BD5C72C109B5400991DC3;
 			packageReferences = (
 				F12BD5E12C109B8800991DC3 /* XCLocalSwiftPackageReference "../MSPlugins" */,
+				F15EE5742C109F93001BCC3F /* XCLocalSwiftPackageReference "../SwiftGenDemo" */,
 			);
 			productRefGroup = F12BD5D12C109B5400991DC3 /* Products */;
 			projectDirPath = "";
@@ -382,6 +388,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../MSPlugins;
 		};
+		F15EE5742C109F93001BCC3F /* XCLocalSwiftPackageReference "../SwiftGenDemo" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SwiftGenDemo;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -389,6 +399,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F12BD5E12C109B8800991DC3 /* XCLocalSwiftPackageReference "../MSPlugins" */;
 			productName = "plugin:SwiftGenPlugin";
+		};
+		F15EE5752C109F93001BCC3F /* SwiftGenDemo */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftGenDemo;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

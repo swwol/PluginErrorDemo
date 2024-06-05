@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftGenDemo
 
 struct ContentView: View {
     var body: some View {
@@ -8,6 +9,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
           Text(L10n.projectString1)
           Text(L10n.projectString2)
+          Text(SwiftGenDemo.L10n.string1)
         }
         .padding()
     }
