@@ -19,6 +19,7 @@ let package = Package(
       plugins: [
         .plugin(name: "SwiftGenPlugin", package: "MSPlugins"),
       ]
-    )
+    ),
+    .testTarget(name: "SwiftGenDemoTests", dependencies: ["SwiftGenDemo"])
   ]
 )
