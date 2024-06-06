@@ -13,7 +13,18 @@
 		F12BD5E42C109BA800991DC3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F12BD5E22C109BA800991DC3 /* Localizable.strings */; };
 		F12BD5E92C109CDB00991DC3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12BD5E82C109CDB00991DC3 /* Media.xcassets */; };
 		F15EE5762C109F93001BCC3F /* SwiftGenDemo in Frameworks */ = {isa = PBXBuildFile; productRef = F15EE5752C109F93001BCC3F /* SwiftGenDemo */; };
+		F1AF44FF2C121C6C0095ECDB /* SwiftGenDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AF44FE2C121C6C0095ECDB /* SwiftGenDemoProjectTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1AF45002C121C6C0095ECDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12BD5C82C109B5400991DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12BD5CF2C109B5400991DC3;
+			remoteInfo = SwiftGenDemoProject;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F12BD5D02C109B5400991DC3 /* SwiftGenDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGenDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +33,8 @@
 		F12BD5DA2C109B5C00991DC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F12BD5E32C109BA800991DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F12BD5E82C109CDB00991DC3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		F1AF44FC2C121C6C0095ECDB /* SwiftGenDemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGenDemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AF44FE2C121C6C0095ECDB /* SwiftGenDemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenDemoProjectTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1AF44F92C121C6C0095ECDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -40,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				F12BD5D22C109B5400991DC3 /* SwiftGenDemoProject */,
+				F1AF44FD2C121C6C0095ECDB /* SwiftGenDemoProjectTests */,
 				F12BD5D12C109B5400991DC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				F12BD5D02C109B5400991DC3 /* SwiftGenDemoProject.app */,
+				F1AF44FC2C121C6C0095ECDB /* SwiftGenDemoProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +102,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		F1AF44FD2C121C6C0095ECDB /* SwiftGenDemoProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1AF44FE2C121C6C0095ECDB /* SwiftGenDemoProjectTests.swift */,
+			);
+			path = SwiftGenDemoProjectTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,6 +134,24 @@
 			productReference = F12BD5D02C109B5400991DC3 /* SwiftGenDemoProject.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F1AF44FB2C121C6C0095ECDB /* SwiftGenDemoProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AF45042C121C6C0095ECDB /* Build configuration list for PBXNativeTarget "SwiftGenDemoProjectTests" */;
+			buildPhases = (
+				F1AF44F82C121C6C0095ECDB /* Sources */,
+				F1AF44F92C121C6C0095ECDB /* Frameworks */,
+				F1AF44FA2C121C6C0095ECDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1AF45012C121C6C0095ECDB /* PBXTargetDependency */,
+			);
+			name = SwiftGenDemoProjectTests;
+			productName = SwiftGenDemoProjectTests;
+			productReference = F1AF44FC2C121C6C0095ECDB /* SwiftGenDemoProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +164,10 @@
 				TargetAttributes = {
 					F12BD5CF2C109B5400991DC3 = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					F1AF44FB2C121C6C0095ECDB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F12BD5CF2C109B5400991DC3;
 					};
 				};
 			};
@@ -137,6 +189,7 @@
 			projectRoot = "";
 			targets = (
 				F12BD5CF2C109B5400991DC3 /* SwiftGenDemoProject */,
+				F1AF44FB2C121C6C0095ECDB /* SwiftGenDemoProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +205,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1AF44FA2C121C6C0095ECDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -164,12 +224,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1AF44F82C121C6C0095ECDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AF44FF2C121C6C0095ECDB /* SwiftGenDemoProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		F12BD5E62C109BEB00991DC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = F12BD5E52C109BEB00991DC3 /* SwiftGenPlugin */;
+		};
+		F1AF45012C121C6C0095ECDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12BD5CF2C109B5400991DC3 /* SwiftGenDemoProject */;
+			targetProxy = F1AF45002C121C6C0095ECDB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -360,6 +433,40 @@
 			};
 			name = Release;
 		};
+		F1AF45022C121C6C0095ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marksandspencer.SwiftGenDemoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGenDemoProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftGenDemoProject";
+			};
+			name = Debug;
+		};
+		F1AF45032C121C6C0095ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marksandspencer.SwiftGenDemoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGenDemoProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftGenDemoProject";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -377,6 +484,15 @@
 			buildConfigurations = (
 				F12BD5DF2C109B5C00991DC3 /* Debug */,
 				F12BD5E02C109B5C00991DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AF45042C121C6C0095ECDB /* Build configuration list for PBXNativeTarget "SwiftGenDemoProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AF45022C121C6C0095ECDB /* Debug */,
+				F1AF45032C121C6C0095ECDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
