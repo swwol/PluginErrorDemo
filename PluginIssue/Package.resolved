@@ -1,0 +1,96 @@
+{
+  "originHash" : "82869f3486f521376dd2ea9f30d6e89d3726fa523a0948d4ed059aab9d2e6673",
+  "pins" : [
+    {
+      "identity" : "aexml",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tadija/AEXML.git",
+      "state" : {
+        "revision" : "38f7d00b23ecd891e1ee656fa6aeebd6ba04ecc3",
+        "version" : "4.6.1"
+      }
+    },
+    {
+      "identity" : "chalk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/luoxiu/Chalk",
+      "state" : {
+        "revision" : "8a9d3373bd754fb62f7881d9f639d376f5e4d5a5",
+        "version" : "0.2.1"
+      }
+    },
+    {
+      "identity" : "commander",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kylef/Commander",
+      "state" : {
+        "revision" : "4a1f2fb82fb6cef613c4a25d2e38f702e4d812c2",
+        "version" : "0.9.2"
+      }
+    },
+    {
+      "identity" : "pathkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kylef/PathKit",
+      "state" : {
+        "revision" : "3bfd2737b700b9a36565a8c94f4ad2b050a5e574",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "rainbow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/luoxiu/Rainbow",
+      "state" : {
+        "revision" : "9d8fcb4c64e816a135c31162a0c319e9f1f09c35",
+        "version" : "0.1.1"
+      }
+    },
+    {
+      "identity" : "shellout",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JohnSundell/ShellOut",
+      "state" : {
+        "revision" : "e1577acf2b6e90086d01a6d5e2b8efdaae033568",
+        "version" : "2.3.0"
+      }
+    },
+    {
+      "identity" : "spectre",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kylef/Spectre.git",
+      "state" : {
+        "revision" : "26cc5e9ae0947092c7139ef7ba612e34646086c7",
+        "version" : "0.10.1"
+      }
+    },
+    {
+      "identity" : "swiftymocky",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MakeAWishFoundation/SwiftyMocky",
+      "state" : {
+        "revision" : "9be502288a23e4ec6a198cfad88af969f96e1d52",
+        "version" : "4.1.0"
+      }
+    },
+    {
+      "identity" : "xcodeproj",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tuist/xcodeproj",
+      "state" : {
+        "revision" : "20d5803c70e4ac5d67151ea6f5624a8136ab8fe0",
+        "version" : "8.21.0"
+      }
+    },
+    {
+      "identity" : "yams",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jpsim/Yams",
+      "state" : {
+        "revision" : "81a65c4069c28011ee432f2858ba0de49b086677",
+        "version" : "3.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

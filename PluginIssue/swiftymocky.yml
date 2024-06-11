@@ -1,0 +1,8 @@
+sources:
+  include:
+    - ./Sources/PluginIssue
+args:
+  testable:
+    - PluginIssue
+  import:
+    - Foundation
