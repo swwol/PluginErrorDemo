@@ -8,9 +8,9 @@ jobs:
     name: "test"
     runs-on: ubuntu-latest
     steps:
-      - name: null
+      - name: test
         env:
-          TEST: 1
+          TEST: null
          # language=bash
         run: |
           echo "$TEST"
