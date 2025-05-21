@@ -13,6 +13,6 @@ jobs:
           TEST: null
          # language=bash
         run: |
-          echo "$TEST"
+          echo "$ENV"
   
   
