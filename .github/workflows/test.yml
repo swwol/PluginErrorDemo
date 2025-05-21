@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: test
         env:
-          TEST: 1
+          TEST: null
          # language=bash
         run: echo '${{ toJSON(env) }}'
   
