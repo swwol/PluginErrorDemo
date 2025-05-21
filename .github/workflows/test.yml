@@ -12,7 +12,6 @@ jobs:
         env:
           TEST: 1
          # language=bash
-        run: |
-          run: echo '${{ toJSON(env) }}'
+        run: echo '${{ toJSON(env) }}'
   
   
